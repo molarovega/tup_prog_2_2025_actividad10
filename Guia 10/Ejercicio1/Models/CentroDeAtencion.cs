@@ -27,5 +27,10 @@ namespace Ejercicio1.Models
 
             sr.Close();
         }
+
+        public LinkedListNode<Solicitud> GetSolicitudPendiente() 
+        {
+            return solicitudesEntrantes.First;
+        }
     }
 }

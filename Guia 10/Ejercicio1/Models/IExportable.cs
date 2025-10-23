@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ejercicio1.Models
 {
-    internal interface IExportable
+    public interface IExportable
     {
+
     }
 }
