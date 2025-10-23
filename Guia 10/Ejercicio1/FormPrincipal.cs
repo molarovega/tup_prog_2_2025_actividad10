@@ -41,6 +41,8 @@ namespace Ejercicio1
                 {
                     if (fs != null) fs.Close();
                 }
+
+                VerSolicitudesPendientes();
             }
         }
 
